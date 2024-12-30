@@ -24,7 +24,8 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent =
       "✅ Hurrayyyy Bubu you guess it right & All Dudu's money is yours";
     // document.querySelector('.number').textContent = number;
-    document.querySelector('.img').src = '/assets/bubuWon.png';
+    document.querySelector('.img').src =
+      '/https://raw.githubusercontent.com/shubham1221/guessMyNumber/refs/heads/main/assets/bubuWon.png';
     document.querySelector('.img').style.width = '80%';
     if (score > highScore) {
       highScore = score;
@@ -43,7 +44,8 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.guess').value = '';
   // Reset ? Number
   // document.querySelector('.number').textContent = '?';
-  document.querySelector('.img').src = '/assets/bubuThink.png';
+  document.querySelector('.img').src =
+    'https://raw.githubusercontent.com/shubham1221/guessMyNumber/refs/heads/main/assets/bubuThink.png';
   document.querySelector('.number').style.background = 'white';
   document.querySelector('.number').style.color = '#222';
   document.querySelector('.score').textContent = 20;

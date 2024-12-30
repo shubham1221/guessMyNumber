@@ -32,6 +32,7 @@ document.querySelector('.check').addEventListener('click', function () {
     }
     document.querySelector('.number').style.background = 'white';
     document.querySelector('.number').style.color = 'white';
+    document.querySelector('body').style.background = 'pink';
   }
 });
 
@@ -49,4 +50,5 @@ document.querySelector('.again').addEventListener('click', function () {
   number = Math.trunc(Math.random() * 20);
   console.log(number);
   score = 20;
+  document.querySelector('body').style.background = '#222';
 });

@@ -25,7 +25,7 @@ document.querySelector('.check').addEventListener('click', function () {
       "✅ Hurrayyyy Bubu you guess it right & All Dudu's money is yours";
     // document.querySelector('.number').textContent = number;
     document.querySelector('.img').src =
-      '/https://raw.githubusercontent.com/shubham1221/guessMyNumber/refs/heads/main/assets/bubuWon.png';
+      'https://raw.githubusercontent.com/shubham1221/guessMyNumber/refs/heads/main/assets/bubuWon.png';
     document.querySelector('.img').style.width = '80%';
     if (score > highScore) {
       highScore = score;
